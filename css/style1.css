@@ -1,0 +1,208 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(images/w2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.max-width{
+	max-width: 1300px;
+	padding: 0 50px;
+	margin: auto;
+}
+
+.navbar{
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	font-family: Century Gothic;
+	padding: 20px;
+	top: 0px;
+}
+
+.navbar .max-width{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar .logo a{
+	color: white;
+	font-size: 35px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.navbar .logo a span{
+	color: red;
+}
+
+.navbar .menu li{
+	list-style: none;
+	display: inline-block;
+}
+
+.navbar .menu li a{
+	color: white;
+	font-size: 22px;
+	margin: 10px;
+	padding: 5px 20px;
+	transition: 0.5s ease;
+	text-decoration: none;
+}
+
+.navbar li a:hover{
+	background-color: lightgray;
+	color: black;
+}
+
+.navbar li.active a{
+	background-color: white;
+	color: black;
+}
+
+.about{
+	width: 80%;
+	background-color: white;
+	box-shadow: 10px 10px 25px rgba(0,0,0,0.9);
+	display: flex;
+	margin: 7% auto 20px auto;
+	position: relative;
+	border-radius: 30px;
+}
+
+.contents{
+	padding: 85.5px;
+}
+
+h1{
+	text-align: center;
+	margin: 100px;
+	font-family: Century Gothic;
+	font-size: 50px;
+}
+
+.text{
+	height: 95vh;
+}
+
+img{
+	height: 400px;
+	margin-left: 705px;
+	position: absolute;
+	margin-top: 1px;
+	bottom: 20px;
+}
+
+h2{
+	font-family: Arial;
+	font-size: 50px;
+	margin: 8px;
+}
+
+p{
+	padding: 10px;
+	font-size: 18px;
+	font-family: sans-serif;
+	line-height: 30px;
+	text-align: justify;
+}
+
+.pictures{
+	display: flex;
+	flex-wrap: wrap;	
+}
+
+.pictures .image{
+	width: 30%;
+	padding: 7px;
+}
+
+.pictures .image span{
+	display: flex;
+	width: 30%;
+	overflow: hidden;
+}
+
+.pictures .image img{
+	width: 30%;
+	vertical-align: middle;
+	transition: all 0.5s ease;
+	bottom: 0px;
+	right: 500px;
+}
+
+.pictures .image:hover img{
+	transform: scale(1.1);
+}
+
+.pictures .images{
+	width: 30%;
+	padding: 7px;
+}
+
+.pictures .images span{
+	display: flex;
+	width: 30%;
+	overflow: hidden;
+}
+
+.pictures .images img{
+	width: 30%;
+	vertical-align: middle;
+	transition: all 0.5s ease;
+	bottom: 0px;
+	right: 280px;
+}
+
+.pictures .images:hover img{
+	transform: scale(1.1);
+}
+
+.pictures .imag{
+	width: 30%;
+	padding: 7px;
+}
+
+.pictures .imag span{
+	display: flex;
+	width: 30%;
+	overflow: hidden;
+}
+
+.pictures .imag img{
+	width: 30%;
+	vertical-align: middle;
+	transition: all 0.5s ease;
+	bottom: 0px;
+	right: 0px;
+}
+
+.pictures .imag:hover img{
+	transform: scale(1.1);
+}
+
+input[type=submit]{
+	width: 10%;
+	box-sizing: border-box;
+	padding: 5px 0;
+	margin-top: 5px;
+	outline: none;
+	border: none;
+	background: green;
+	opacity: 1;
+	border-radius: 20px;
+	font-size: 20px;
+	color: white;
+	margin-left: 5px;
+}
+
+input[type=submit]:hover{
+	background: darkgreen;
+	opacity: 1;
+}

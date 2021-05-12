@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.max-width{
+	max-width: 1300px;
+	padding: 0 50px;
+	margin: auto;
+}
+
+.navbar{
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	font-family: Century Gothic;
+	padding: 20px;
+	top: 0px;
+}
+
+.navbar .max-width{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar .logo a{
+	color: white;
+	font-size: 35px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.navbar .logo a span{
+	color: red;
+}
+
+.navbar .menu li{
+	list-style: none;
+	display: inline-block;
+}
+
+.navbar .menu li a{
+	color: white;
+	font-size: 22px;
+	margin: 10px;
+	padding: 5px 20px;
+	transition: 0.5s ease;
+	text-decoration: none;
+}
+
+.navbar li a:hover{
+	background-color: lightgray;
+	color: black;
+}
+
+.navbar li.active a{
+	background-color: white;
+	color: black;
+}
+
+body{
+	background-image: url(images/w3.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.contact{
+	width: 40%;
+	background-color: white;
+	box-shadow: 0 0 20px 0 black;
+	top: 23%;
+	left: 30%;
+	position: absolute;
+	text-align: center;
+}
+
+h2{
+	font-family: Calibri;
+	font-size: 30px;
+}
+
+form{
+	margin: 35px;
+}
+
+.input{
+	width: 400px;
+	height: 40px;
+	margin-top: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid black;
+	border-radius: 20px;
+	outline: none;
+}
+
+.textarea{
+	height: 200px;
+	padding-top: 10px;
+}
+
+.button{
+	border-radius: 20px;
+	color: white;
+	margin-top: 18px;
+	padding: 10px;
+	background-color: green;
+	font-size: 12px;
+	border: none;
+	cursor: pointer;
+	margin-left: 300px;
+	opacity: 1;
+}
+
+.button:hover{
+	background: darkgreen;
+	opacity: 1;
+}
+
+#footers{
+	color: black;
+	text-align: center;
+	margin-top: 670px;
+	font-size: 20px;
+}
+
+.social-media h2{
+	text-align: left;
+	font-size: 20px;
+	padding-top: 100px;
+	margin: 10px;
+	font-family: Calibri;
+}
+
+.icons li{
+	list-style: none;
+	margin: 1px 3px;
+	display: inline-block;
+	font-size: 30px;
+	padding: 5px 5px;
+	color: black;
+	border: 0px solid black;
+	border-radius: 10%;
+	margin-left: 10px;
+}
